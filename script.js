@@ -4,7 +4,7 @@ var num1 = document.getElementById("num1")
             var num1value=Number(num1.value)
             if(num1value>=1924 && num1value<=2024){
                 var total = 2024-num1value
-                result.textContent=total
+                result.textContent="Your Age:"+total
             }
             else{
                 result.textContent="Invalid Data"
