@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient(
+    yellow ,orange,black);
+}
+.con{
+    border:none;
+    outline: none;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background:rgba(30, 24, 24, 0.3);
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px black;
+}
+.head h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin:0 0 20px ;
+}
+
+input{
+    
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size:25px;
+    width: 200px;
+
+}
+td{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.but{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    box-shadow: 0px 0px 12px black;
+    
+}
+button:hover{
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      box-shadow: 0px 0px 12px white;
+      transition: all 1s;
+      
+}
+.result{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+@media all and (max-width:400px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:radial-gradient(
+        yellow ,orange,black);
+    }
+    .con{
+        border:none;
+        outline: none;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        max-width: 380px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        background:rgba(30, 24, 24, 0.3);
+        border-radius: 30px;
+        box-shadow: 0px 0px 30px black;
+    }
+    .head h1{
+        text-transform: uppercase;
+        font-size: 26px;
+        margin:0 0 20px ;
+        display: block;
+        text-align: center;
+    }
+    
+    input{
+        
+        padding: 10px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size:18px;
+        width: 100px;
+    
+    }
+    td{
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .but{
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    button{
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 22px;
+        box-shadow: 0px 0px 12px black;
+        
+    }
+    button:hover{
+          cursor: pointer;
+          background-color: black;
+          color: white;
+          box-shadow: 0px 0px 12px white;
+          transition: all 1s;
+          
+    }
+    .result{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+
+}
